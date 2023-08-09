@@ -1,0 +1,140 @@
+/* hero section */
+.hero {
+    position: absolute;
+    top: 8vh;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+}
+
+.hero-ghost {
+    width: 100%;
+    height: 60vh;
+    margin-top: 8vh;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .7;
+}
+
+.hero-text {
+    position: absolute;
+    bottom: 10vh;
+    left: 5%;
+    width: 88%;
+}
+
+.hero-text h1 {
+    font-family: 'Melodrama Bold';
+    font-size: 85px;
+}
+
+.hero-text h2 {
+    font-family: 'Melodrama Regular';
+    font-size: 40px;
+}
+
+/* main content */
+.main-content {
+    width: 80%;
+    margin: 80px 0 100px 5%;
+}
+
+.main-content div h1 {
+    font-family: 'Melodrama Medium';
+}
+
+.main-content div p:not(.services .titles) {
+    opacity: .7;
+    margin-top: 10px;
+    width: 95%;
+}
+
+.about-us {
+    padding-bottom: 100px;
+}
+
+.services {
+    width: 80%;
+}
+
+.services .titles {
+    margin-top: 10px;
+}
+
+.icons {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.icons div {
+    width: 33%;
+}
+
+.icons div h1 {
+    font-size: 80px;
+}
+
+/* iPads */
+@media screen and (max-width: 1024px) {
+    .hero-text h1 {
+        font-family: 'Melodrama Bold';
+        font-size: 70px;
+    }
+    
+    .hero-text h2 {
+        font-family: 'Melodrama Regular';
+        font-size: 30px;
+    }
+
+    .icons div h1 {
+        font-size: 60px;
+    }
+
+    .main-content {
+        width: 90%;
+        margin: 80px 0 100px 5%;
+    }
+
+    .services {
+        width: 90%;
+    }
+}
+
+/* For hero text size */
+@media screen and (max-width: 702px) {
+    .hero-text {
+        width: 92%;
+    }
+
+    .hero-text h1 {
+        font-family: 'Melodrama Bold';
+        font-size: 50px;
+    }
+}
+
+/* Smartphones */
+@media screen and (max-width: 480px) {
+    .hero-text h1 {
+        font-family: 'Melodrama Bold';
+        font-size: 40px;
+    }
+    
+    .hero-text h2 {
+        font-family: 'Melodrama Regular';
+        font-size: 20px;
+    }
+
+    .main-content {
+        width: 95%;
+        margin: 80px 0 100px 5%;
+    }
+
+    .services {
+        width: 100%;
+    }
+}
